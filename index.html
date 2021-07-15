@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Weather Search</title>
+</head>
+<body>
+    <header class="container-fluid row justify-content-center" id="page-header"><h1 class="display-5">Weather Dashboard</h1></header>
+   
+    
+    <div class="row justify-content-around">
+      <div class=".col-6 .col-md-4">
+        <div class="container" id="search-form">
+          <div class=".col-6 .col-md-4">
+                <form id="user-form">
+                    <h3 class="cityHeader"><strong>Search by City:</strong></h3>
+                    <label class="form-label" for="city"></label>
+                    <input name="citySearch" id="search-box" type="text" autofocus="true" class="form-control">
+                    <button type="button" class="btn-block">Search</button>
+                </form>
+                <hr>
+                <ul>
+                  <li>Previous Search</li>
+                  <li>Previous Search</li>
+                  <li>Previous Search</li>
+                  <li>Previous Search</li>
+                  <li>Previous Search</li>
+                </ul>
+          </div>
+        </div>
+      </div>
+      
+      <div class=".col-12 .col-md-8">
+          <div class="jumbotron">
+            <div class="weather"> 
+              <h2 class="city"></h2>
+                <img src="" alt="" class="icon" />
+                <div class="description"></div>
+                <div class="temp">Temp:</div>
+                <div class="wind">Wind:</div>
+                <div class="humidity">Humidity</div>
+                <div class="uvIndex">UV Index:</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <div class="container">
+    <h2>5-Day Forecast:</h2>
+    <div class="card-deck">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Monday:</h5>
+            <p class="card-text-mon">
+              <div class="card-temp">75*</div>
+              <div class="card-wind">65 MPH</div>
+              <div class="card-humidity">78%</div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Tuesday:</h5>
+            <p class="card-text-tue">
+              <div class="card-temp">75*</div>
+              <div class="card-wind">65 MPH</div>
+              <div class="card-humidity">78%</div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Wednesday:</h5>
+            <p class="card-text-wed"></p>
+            <div class="card-temp">75*</div>
+            <div class="card-wind">65 MPH</div>
+            <div class="card-humidity">78%</div>
+          </div>
+        </div>
+
+        <div class="card">
+         <div class="card-body">
+            <h5 class="card-title">Thursday:</h5>
+            <p class="card-text-thur">
+              <div class="card-temp">75*</div>
+              <div class="card-wind">65 MPH</div>
+              <div class="card-humidity">78%</div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Friday:</h5>
+            <p class="card-text-fri">
+              <div class="card-temp">75*</div>
+              <div class="card-wind">65 MPH</div>
+              <div class="card-humidity">78%</div>
+          </div>
+        </div>
+        
+      </div>
+ </div>
+        
+
+             
+
+        
+
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+<script src="script.js"></script>  
+ 
+</body>
+</html>
